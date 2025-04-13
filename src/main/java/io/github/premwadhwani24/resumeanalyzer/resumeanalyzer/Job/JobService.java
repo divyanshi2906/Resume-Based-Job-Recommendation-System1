@@ -6,7 +6,6 @@ public interface JobService {
     Job createJob(Job job);
     List<Job> getAllJobs();
 
-    Job getJobById(long id);
 
     Job getJobByTitle(String title);
 
