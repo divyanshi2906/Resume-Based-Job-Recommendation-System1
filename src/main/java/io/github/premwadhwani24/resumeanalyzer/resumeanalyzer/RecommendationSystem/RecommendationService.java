@@ -10,9 +10,8 @@ public interface RecommendationService<Recommendation, Recommedation, Recmmendat
 
     Recommedation getRecommendationByTitle(String Title);
 
-    Recommendation getRecommendationByComany(String Company);
-
     Recmmendation getRecommendationBySkills(String skills);
 
     Recommendation getRecommendationySkillsRequired(String skillsRequired);
+
 }
