@@ -6,14 +6,14 @@ public interface ResumeService {
     Resume createResume(Resume resume);
 
     List<Resume> getAllResume();
-    Resume getResumeByName(String name);
+    Resume getResumeById(long id);
 
-    Resume getResumeByEmail(String email);
+    Resume getResumeByFileName(String fileName);
 
-    Resume getResumeBySkills(String skills);
+    Resume getResumeByParsedSkills(String parsedSkills);
 
-    Resume getResumeByEducation(String eduction);
+    Resume getResumeByUpload(String uploadAt);
 
-    Resume getResumeByExperience(String experience);
+    Resume getResumeByUser(String user);
 }
 
