@@ -1,5 +1,7 @@
 package io.github.premwadhwani24.resumeanalyzer.resumeanalyzer.Job;
 
+import jakarta.persistence.criteria.CriteriaBuilder;
+
 import java.util.List;
 import java.util.Objects;
 
@@ -78,5 +80,8 @@ public class Job {
                 ", description='" + description + '\'' +
                 ", requiredSkills=" + requiredSkills +
                 '}';
+    }
+
+    public CriteriaBuilder getCompany() {
     }
 }
