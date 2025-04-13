@@ -6,12 +6,14 @@ public interface UserService {
     User createUser(User user);
 
     List<User> getAllUser();
+    User getUserById(long id);
 
     User getUserByName(String name);
 
     User getUserByEmail(String email);
 
-    User getUserBySkills(String skills );
+    User getUserByPassword(String password);
 
-    User getUserByEducation(String education);
+    boolean deleteUser(long id);
+
 }
